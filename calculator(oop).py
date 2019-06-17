@@ -23,7 +23,7 @@ class calculator:
 obj = calculator()
 while True:
     print("\n Calculator")
-    print("\n 1. ADD \n 2. SUBSTRACT \n 3. MULTIPLY \n 4. DIVISION \n 5. POWER \n 6. EXIT")
+    print("\n 1. ADD \n 2. SUBSTRACTION \n 3. MULTIPLY \n 4. DIVISION \n 5. POWER \n 6. EXIT")
     p = int(input("Enter your choice: "))
 
     if p != 6:
