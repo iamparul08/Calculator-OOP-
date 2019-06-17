@@ -1,7 +1,7 @@
 #calculator using the OOP concept
 
 import sys
-#-------------------------------------------BLL
+#-------------------------------------------Business Logic Layer
 class calculator:
     def __init__(self):
         self.no1 = 0
@@ -18,7 +18,7 @@ class calculator:
     def power(self):
         self.res = self.no1 ** self.no2
 
-#---------------------------------------------PL
+#---------------------------------------------Presentation Layer
 
 obj = calculator()
 while True:
