@@ -32,18 +32,20 @@ while True:
     if p == 1:
         obj.sum()
         print("Result = ", obj.res)
-    elif p ==2:
+    elif p == 2:
         obj.substraction()
         print("Result = ", obj.res)
-    elif p ==3:
+    elif p == 3:
         obj.multiplication()
         print("Result = ", obj.res)
-    elif p==4:
+    elif p == 4:
         obj.division()
         print("Result = ", obj.res)
-    elif p==5:
+    elif p == 5:
         obj.power()
         print("Result = ", obj.res)
-    else:
+    elif p == 6:
         print("Exit successfully")
         sys.exit()
+    else:
+        print("Invalid Choice")
