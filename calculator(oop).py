@@ -24,28 +24,42 @@ obj = calculator()
 while True:
     print("\n Calculator")
     print("\n 1. ADD \n 2. SUBSTRACTION \n 3. MULTIPLY \n 4. DIVISION \n 5. POWER \n 6. EXIT")
-    p = int(input("Enter your choice: "))
+    
+    choice = int(input("Enter your choice: "))
 
-    if p != 6:
+    if choice == 1:
         obj.no1 = int(input("Enter number 1: "))
         obj.no2 = int(input("Enter number 2: "))
-    if p == 1:
         obj.sum()
         print("Result = ", obj.res)
-    elif p == 2:
+    
+    elif choice == 2:
+        obj.no1 = int(input("Enter number 1: "))
+        obj.no2 = int(input("Enter number 2: "))
         obj.substraction()
         print("Result = ", obj.res)
-    elif p == 3:
+    
+    elif choice == 3:
+        obj.no1 = int(input("Enter number 1: "))
+        obj.no2 = int(input("Enter number 2: "))
         obj.multiplication()
         print("Result = ", obj.res)
-    elif p == 4:
+    
+    elif choice == 4:
+        obj.no1 = int(input("Enter number 1: "))
+        obj.no2 = int(input("Enter number 2: "))
         obj.division()
         print("Result = ", obj.res)
-    elif p == 5:
+    
+    elif choice == 5:
+        obj.no1 = int(input("Enter number 1: "))
+        obj.no2 = int(input("Enter number 2: "))
         obj.power()
         print("Result = ", obj.res)
-    elif p == 6:
+        
+    elif choice == 6:
         print("Exit successfully")
         sys.exit()
+    
     else:
         print("Invalid Choice")
